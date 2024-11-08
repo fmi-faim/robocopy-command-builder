@@ -8,9 +8,8 @@ We recommend using Robocopy to facilitate the parallel transfer of data and dele
         ![Project Directory Structure](resources/cmd_prompt.png)
         <figcaption>Command Prompt window</figcaption>
     </figure>
-2. Prepare your command:
-   {{{user-defined-values}}}
-    
+2. Prepare your command:<br/>
+   {{{user-defined-values}}}<br/>
     ```bash
     robocopy SOURCE DESTINATION /e /copy:DT /w:30 /dcopy:T /log+:debug.log /mov /mot:MINUTES
     ```
