@@ -43,6 +43,8 @@ theme:
     next: 78     # n
     previous: 80 # p
     search: 83   # s
+extra_javascript:
+  - javascripts/clear_forms.js
 plugins:
   - offline:
       enabled: !ENV [ OFFLINE, false ]  # noqa
