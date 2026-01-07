@@ -16,7 +16,7 @@ We recommend using Robocopy to facilitate the parallel transfer of data and dele
 3. Enter the line to Command Prompt and press “enter” to start the process.
     <figure markdown="span">
         ![Project Directory Structure](resources/submit_command.png)
-        <figcaption>Example of a Robocopy command line that will transfer files from a local D: drive to Tungsten.</figcaption>
+        <figcaption>Example of a Robocopy command line that will transfer files from a local D: drive to the W: drive</figcaption>
     </figure>
 
 4. Let it run until the end of your experiment.
